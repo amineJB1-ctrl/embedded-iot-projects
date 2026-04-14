@@ -1,4 +1,4 @@
-## Solar Panel Tilt Control System
+# Solar Panel Tilt Control System
 
 Arduino-based system for controlling the tilt angle of solar panels using push buttons, a servo motor, and a 7-segment display.
 
