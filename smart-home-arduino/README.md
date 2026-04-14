@@ -1,4 +1,4 @@
-## Smart Home System
+# Smart Home System
 
 Smart home system using Arduino Uno with DHT22 sensor, LDR, and HC-SR04 ultrasonic sensor to automate window and door control.
 
