@@ -35,4 +35,4 @@ Follow a predefined line path using sensor-based navigation and motor control.
 
 ## Circuit Design
 
-![Proteus Schema](schema.png)
+![Proteus Schema](shema_line_follower_robot.png)
