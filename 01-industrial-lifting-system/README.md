@@ -4,7 +4,7 @@ Lifting mechanism using Arduino Uno with HC-SR04 ultrasonic
 sensor for distance measurement and LED bar graph for level 
 visualization.
 
-##Objective
+## Objective
 Simulate an industrial lifting process by measuring distance (level) and displaying it visually using LEDs.
 
 ## Components
