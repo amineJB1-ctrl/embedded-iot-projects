@@ -32,4 +32,4 @@ Push buttons
 
 ## Simulation
 
-View on Wokwi (https://wokwi.com/projects/461279536121543681)
+[View on Wokwi](https://wokwi.com/projects/461279536121543681)
