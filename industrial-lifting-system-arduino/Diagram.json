@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Amin Jabeur",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 10.2, "left": -10.2, "attrs": {} },
+    {
+      "type": "wokwi-led-bar-graph",
+      "id": "bargraph1",
+      "top": -91.2,
+      "left": 340.8,
+      "attrs": { "color": "lime" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -123.3,
+      "left": -61.7,
+      "attrs": { "distance": "319" }
+    }
+  ],
+  "connections": [
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v0", "h-134.4", "v240", "h153.6" ] ],
+    [ "ultrasonic1:ECHO", "uno:8", "green", [ "v9.6", "h18.4" ] ],
+    [ "ultrasonic1:TRIG", "uno:9", "green", [ "v19.2", "h18.8" ] ],
+    [ "bargraph1:A2", "uno:3", "blue", [ "h-124.8" ] ],
+    [ "bargraph1:A1", "uno:2", "blue", [ "h0" ] ],
+    [ "bargraph1:A3", "uno:4", "blue", [ "h0" ] ],
+    [ "bargraph1:A4", "uno:5", "blue", [ "h0" ] ],
+    [ "bargraph1:A5", "uno:6", "blue", [ "h0" ] ],
+    [ "ultrasonic1:GND", "uno:GND.1", "black", [ "v0", "h66" ] ],
+    [ "bargraph1:A6", "uno:7", "blue", [ "h0" ] ],
+    [ "bargraph1:A7", "uno:10", "blue", [ "h0" ] ],
+    [ "bargraph1:A8", "uno:11", "blue", [ "h0" ] ],
+    [ "bargraph1:A9", "uno:12", "blue", [ "h0" ] ],
+    [ "bargraph1:A10", "uno:13", "blue", [ "h0" ] ],
+    [ "bargraph1:C1", "uno:GND.2", "green", [ "v0", "h48.22", "v326.4", "h-259.2" ] ],
+    [ "bargraph1:C2", "uno:GND.2", "green", [ "h48.22", "v316.8", "h-259.2" ] ],
+    [ "bargraph1:C3", "uno:GND.2", "green", [ "h48.22", "v307.2", "h-259.2" ] ],
+    [ "bargraph1:C4", "uno:GND.2", "green", [ "h48.22", "v297.6", "h-268.8" ] ],
+    [ "bargraph1:C5", "uno:GND.2", "green", [ "h48.22", "v278.39", "h-259.2", "v9.6" ] ],
+    [ "bargraph1:C6", "uno:GND.2", "green", [ "h48.22", "v278.39", "h-259.2" ] ],
+    [ "bargraph1:C7", "uno:GND.2", "green", [ "h48.22", "v268.79", "h-259.2" ] ],
+    [ "bargraph1:C8", "uno:GND.2", "green", [ "h48.22", "v249.59", "h-259.2" ] ],
+    [ "bargraph1:C9", "uno:GND.2", "green", [ "h48.22", "v239.99", "h-259.2" ] ],
+    [ "bargraph1:C10", "uno:GND.2", "green", [ "h38.62", "v239.99", "h-240" ] ]
+  ],
+  "dependencies": {}
+}
