@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "author": "Amin Jabeur",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 135, "left": 9, "attrs": {} },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 486.5,
+      "left": 109.9,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -38.1, "left": 349.8, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -75.3, "left": 130.3, "attrs": {} },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": -58.6,
+      "left": -257.4,
+      "rotate": 270,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo2",
+      "top": -68.2,
+      "left": -132.6,
+      "rotate": 270,
+      "attrs": { "hornColor": "red" }
+    }
+  ],
+  "connections": [
+    [ "dht1:SDA", "uno:2", "green", [ "v28.8", "h-124.7" ] ],
+    [ "dht1:VCC", "uno:5V", "red", [ "v268.8", "h-201.6" ] ],
+    [ "dht1:GND", "uno:GND.2", "black", [ "v278.4", "h-220.8" ] ],
+    [ "ultrasonic1:ECHO", "uno:5", "green", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "uno:6", "green", [ "v0" ] ],
+    [ "ultrasonic1:GND", "uno:GND.2", "black", [ "v0", "h85.2", "v336", "h-144" ] ],
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v67.2", "h163.2", "v259.2", "h-201.6" ] ],
+    [ "servo2:PWM", "uno:3", "blue", [ "v38.4", "h269" ] ],
+    [ "servo1:PWM", "uno:9", "blue", [ "v48", "h336.2" ] ],
+    [ "servo2:V+", "uno:5V", "red", [ "v278.4", "h211.3" ] ],
+    [ "servo1:V+", "uno:5V", "red", [ "v278.4", "h336.1" ] ],
+    [ "servo2:GND", "uno:GND.2", "black", [ "v307.2", "h249.6" ] ],
+    [ "servo1:GND", "uno:GND.2", "black", [ "v297.6", "h355.2" ] ],
+    [ "ldr1:AO", "uno:A0", "green", [ "v0" ] ],
+    [ "ldr1:GND", "uno:GND.2", "black", [ "v-67.2", "h-10" ] ],
+    [ "ldr1:VCC", "uno:5V", "red", [ "v-28.8", "h-19.2" ] ]
+  ],
+  "dependencies": {}
+}
