@@ -12,11 +12,11 @@ ISTIC, Université de Rennes · [LinkedIn](https://www.linkedin.com/in/aminjabeu
 |---|---|---|---|
 | [Levage industriel](industrial-lifting-system-arduino) | Arduino Uno | Commande de montée et descente d'une charge | C/C++ |
 | [Robot suiveur de ligne](line-follower-robot-arduino) | Arduino Uno | Suivi d'une ligne par capteurs infrarouges | C/C++ |
-| [Commande de moteur](motor-control-system-esp32) | ESP32 | Pilotage de vitesse et de sens de rotation | à compléter |
-| [Porte intelligente](smart-door-system-esp32) | ESP32 | Ouverture automatique sur détection | à compléter |
+| [Commande de moteur](motor-control-system-esp32) | ESP32 | Pilotage de vitesse et de sens de rotation | MicroPython |
+| [Porte intelligente](smart-door-system-esp32) | ESP32 | Ouverture automatique sur détection | MicroPython |
 | [Maison intelligente](smart-home-arduino) | Arduino | Éclairage, température et alarme centralisés | C/C++ |
 | [Surveillance de plante](smart-plant-monitoring-system-arduino-nano) | Arduino Nano | Mesure d'humidité du sol et arrosage | C/C++ |
-| [Surveillance de plante (IoT)](smart-plant-monitoring-system-esp32) | ESP32 | Même système, avec remontée des mesures par Wi-Fi | à compléter |
+| [Surveillance de plante (IoT)](smart-plant-monitoring-system-esp32) | ESP32 | Mesure de luminosité (LDR) et de température (DHT22), affichées en temps réel sur écran OLED SSD1306 | MicroPython |
 | [Poubelle intelligente](smart-trash-bin-system-raspberry-pi-pico) | RPi Pico | Ouverture sans contact et mesure du niveau de remplissage | MicroPython |
 | [Suiveur solaire](solar-panel-tilt-control-system-arduino) | Arduino | Orientation d'un panneau selon la luminosité | C/C++ |
 | [Contrôle de cuve](water-tank-control-system-raspberry-pi-pico) | RPi Pico | Régulation de niveau d'eau par capteurs et pompe | MicroPython |
