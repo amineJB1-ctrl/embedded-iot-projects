@@ -2,6 +2,10 @@
 
 Arduino-based system for controlling the tilt angle of solar panels using push buttons, a servo motor, and a 7-segment display.
 
+![Circuit](circuit.png)
+
+▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
+
 ## ⚙️ System Description
 
 The system allows the user to adjust the tilt angle of a solar panel using two push buttons:
