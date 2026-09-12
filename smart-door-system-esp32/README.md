@@ -2,6 +2,10 @@
 
 Smart door system using ESP32, PIR motion sensor, and stepper motor (A4988 driver) for automatic opening and closing.
 
+![Circuit](circuit.png)
+
+▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
+
 ## ⚙️ System Description  
 
 The system controls a door using motion detection and a stepper motor.
