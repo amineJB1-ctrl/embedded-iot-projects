@@ -2,6 +2,11 @@
 
 Motor control system using ESP32 with push buttons, temperature sensors, relays, and LEDs for monitoring and protection.
 
+![Circuit](circuit.png)
+
+▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
+
+
 ## ⚙️ System Description
 
 The system controls three motors using push buttons and temperature monitoring.
