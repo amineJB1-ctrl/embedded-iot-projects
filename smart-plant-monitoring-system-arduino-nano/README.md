@@ -2,6 +2,10 @@
 
 Plant monitoring system using Arduino Uno with DHT22 sensor, LDR, and LCD display to monitor environmental conditions in real time.
 
+![Circuit](circuit.png)
+
+▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
+
 ## ⚙️ System Description
 
 The system monitors key environmental factors that affect plant growth, including temperature, humidity, and light intensity.
