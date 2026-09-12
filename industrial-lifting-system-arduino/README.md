@@ -4,6 +4,10 @@ Lifting mechanism using Arduino Uno with HC-SR04 ultrasonic
 sensor for distance measurement and LED bar graph for level 
 visualization.
 
+![Circuit](circuit.png)
+
+▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
+
 ## ⚙️ System Description
 
 The system uses an HC-SR04 ultrasonic sensor to measure the distance between the sensor and an object, simulating the lifting level.
