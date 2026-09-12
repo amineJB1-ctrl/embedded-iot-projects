@@ -2,6 +2,10 @@
 
 Smart home system using Arduino Uno with DHT22 sensor, LDR, and HC-SR04 ultrasonic sensor to automate window and door control.
 
+![Circuit](circuit.png)
+
+▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
+
 ## ⚙️ System Description
 
 The system uses a DHT22 sensor to measure temperature and an LDR sensor to detect light intensity. Based on these values, the window is automatically controlled using a servo motor:
