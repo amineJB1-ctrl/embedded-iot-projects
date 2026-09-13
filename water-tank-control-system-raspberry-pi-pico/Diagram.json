@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "author": "Amin Jabeur",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 77.5,
+      "left": 46.05,
+      "rotate": 90,
+      "attrs": { "env": "micropython-20241129-v1.24.1" }
+    },
+    {
+      "type": "wokwi-relay-module",
+      "id": "relay1",
+      "top": 3,
+      "left": -207.6,
+      "rotate": 270,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-relay-module",
+      "id": "relay2",
+      "top": 3,
+      "left": 243.6,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": 177.2, "left": -217.7, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -46.5, "left": -4.1, "attrs": {} }
+  ],
+  "connections": [
+    [ "ultrasonic1:TRIG", "pico:GP0", "green", [ "v76.8", "h95.6" ] ],
+    [ "ultrasonic1:ECHO", "pico:GP1", "orange", [ "v67.2", "h76" ] ],
+    [ "pico:3V3", "ultrasonic1:VCC", "red", [ "v39.6", "h-182.4", "v-182.4", "h115.2" ] ],
+    [ "ultrasonic1:GND", "pico:GND.8", "black", [ "v48", "h114", "v153.6", "h-57.6", "v-38.4" ] ],
+    [ "relay2:GND", "pico:GND.8", "black", [ "v153.6", "h-154" ] ],
+    [ "relay2:VCC", "pico:3V3", "red", [ "v182.4", "h-163.2" ] ],
+    [ "relay1:GND", "pico:GND.8", "black", [ "v201.6", "h297.2" ] ],
+    [ "relay1:VCC", "pico:3V3", "red", [ "v182.4", "h288" ] ],
+    [ "relay1:IN", "pico:GP13", "blue", [ "v28.8", "h153.4" ] ],
+    [ "relay2:IN", "pico:GP12", "blue", [ "v9.6", "h-297.8" ] ],
+    [ "sw1:3", "pico:GP18", "green", [ "v48", "h221" ] ],
+    [ "sw1:2", "pico:GND.8", "black", [ "v96", "h355.3" ] ]
+  ],
+  "dependencies": {}
+}
