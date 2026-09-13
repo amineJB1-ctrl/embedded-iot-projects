@@ -38,6 +38,4 @@ Follow a predefined line path using sensor-based navigation and motor control.
 * Visual Studio Code
 * C/C++ (Arduino)
 
-## Circuit Design
 
-![Proteus Schema](circuit.png)
