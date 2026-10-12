@@ -4,8 +4,6 @@ Smart trash bin system using ultrasonic sensors and a servo motor for automatic 
 
 ![Circuit](circuit.png)
 
-▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
-
 ## System Description  
 
 The system automatically opens and closes a trash bin using distance detection.
