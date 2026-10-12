@@ -4,8 +4,6 @@ Motor control system using ESP32 with push buttons, temperature sensors, relays,
 
 ![Circuit](circuit.png)
 
-▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
-
 
 ## ⚙️ System Description
 
