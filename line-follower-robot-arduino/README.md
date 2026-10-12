@@ -4,8 +4,6 @@ Arduino-based robot that follows a line using infrared sensors and motor control
 
 ![Circuit](circuit.png)
 
-▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
-
 
 ## ⚙️ System Description
 
