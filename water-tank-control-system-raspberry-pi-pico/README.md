@@ -4,8 +4,6 @@ Water level control system using ultrasonic sensor and Raspberry Pi Pico for aut
 
 ![Circuit](circuit.png)
 
-▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
-
 ## ⚙️ System Description  
 
 The system monitors the water level in a tank using an ultrasonic sensor and controls two relays.
