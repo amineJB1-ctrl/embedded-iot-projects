@@ -4,8 +4,6 @@ Smart plant monitoring system using ESP32 with sensors and OLED display to track
 
 ![Circuit](circuit.png)
 
-▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
-
 ## ⚙️ System Description  
 
 The system monitors plant conditions using a light sensor and a temperature sensor, then displays the data on an OLED screen.
