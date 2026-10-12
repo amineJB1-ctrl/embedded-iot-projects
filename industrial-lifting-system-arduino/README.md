@@ -6,7 +6,6 @@ visualization.
 
 ![Circuit](circuit.png)
 
-▶ [Run the simulation on Wokwi](https://wokwi.com/projects/XXXXXXXXX)
 
 ## ⚙️ System Description
 
